@@ -282,6 +282,12 @@ html.pdf .sv-fade,html.pdf .sv-left,html.pdf .sv-up{opacity:1!important;transfor
 html.pdf .cv-plaque{opacity:1!important;transform:none!important}
 
 html.film .tapx{display:none}
+
+/* v5: clear capital A — names set in italic serif; stacked "Asmita / with / Karan" */
+.names{flex-direction:column;align-items:center;gap:calc(var(--u)*.3);padding:0;font-family:var(--f-serif);font-style:italic;font-weight:600;font-size:calc(var(--u)*10.5);line-height:1.02}
+.names span{display:block}
+.names i{font-size:calc(var(--u)*3.8);transform:none;font-weight:600;color:var(--gold);line-height:1.2;padding:0}
+.wreath-names span{font-family:var(--f-serif);font-style:italic;font-weight:600;font-size:calc(var(--u)*9.4);line-height:1}
 </style></head>
 <body><canvas id="fx" aria-hidden="true"></canvas><main id="stage"><!-- ═════════ COVER ═════════ -->
 <section id="cover" class="pg desert" data-title="Cover">
@@ -303,21 +309,20 @@ html.film .tapx{display:none}
   <div class="abs mantra rv" style="top:calc(var(--u)*5.5);--d:.3s">॥ श्री गणेशाय नमः ॥</div>
   <div class="ganesh-mini rv pop-x" style="top:calc(var(--u)*11);--d:.5s"><svg viewBox="97 118 98 127"><use href="#gPath" fill="url(#maroonG)"/></svg></div>
 
-  <div class="abs script-b rv" style="top:calc(var(--u)*29);--d:1s">With the blessings of</div>
-  <div class="abs rel rv" style="top:calc(var(--u)*40.5);--d:1.4s">Grand daughter of</div>
-  <div class="abs fam rv" style="top:calc(var(--u)*45.5);--d:1.7s">Late Sh. RD Shastri<br><i>and</i> Smt. Siya Shastri</div>
-  <div class="abs rel rv" style="top:calc(var(--u)*63);--d:2.4s">Daughter of</div>
-  <div class="abs fam rv" style="top:calc(var(--u)*68);--d:2.7s">Sh. Vivek Shastri<br><i>and</i> Smt. Rekha Shastri</div>
+  <div class="abs script-b rv" style="top:calc(var(--u)*28);--d:1s;font-size:calc(var(--u)*6.6)">With the blessings of</div>
+  <div class="abs fam rv" style="top:calc(var(--u)*39);--d:1.4s;font-size:calc(var(--u)*5.3)">Late Shri R. D. Shastri<br><i>and</i> Smt. Siya Shastri</div>
+  <div class="abs rel rv" style="top:calc(var(--u)*54);--d:1.8s;font-size:calc(var(--u)*3.2)">Beloved Grandparents of Asmita</div>
+  <div class="abs fam rv" style="top:calc(var(--u)*61);--d:2.2s;font-size:calc(var(--u)*5.3)">Shri Vivek Shastri<br><i>and</i> Smt. Rekha Shastri</div>
+  <div class="abs rel rv" style="top:calc(var(--u)*76);--d:2.6s;font-size:calc(var(--u)*3.2)">Beloved Parents of Asmita</div>
 
-  <div class="abs rv orn-wrap" style="top:calc(var(--u)*86);--d:3.3s"><div data-orn="40"></div></div>
-  <div class="abs rel rv" style="top:calc(var(--u)*92.5);--d:3.6s;font-size:calc(var(--u)*3.6)">We cordially invite you to the</div>
-  <div class="abs wed gold rv pop-x" style="top:calc(var(--u)*95);--d:4s">Wedding</div>
-  <div class="abs rel rv" style="top:calc(var(--u)*117.5);--d:4.8s;font-size:calc(var(--u)*3.6)">of</div>
-  <div class="abs names rv pop-x" style="top:calc(var(--u)*120.5);--d:5.1s"><span>Asmita</span><i>with</i><span>Karan</span></div>
+  <div class="abs rv orn-wrap" style="top:calc(var(--u)*84);--d:3s"><div data-orn="40"></div></div>
+  <div class="abs rel rv" style="top:calc(var(--u)*89.5);--d:3.3s;font-size:calc(var(--u)*3.4)">We cordially invite you to the</div>
+  <div class="abs wed gold rv pop-x" style="top:calc(var(--u)*89);--d:3.7s;font-size:calc(var(--u)*19);padding:calc(var(--u)*2) 0">Wedding</div>
+  <div class="abs rel rv" style="top:calc(var(--u)*113.5);--d:4.4s;font-size:calc(var(--u)*3.4)">of</div>
+  <div class="abs names rv pop-x" style="top:calc(var(--u)*116.5);--d:4.7s"><span>Asmita</span><i>with</i><span>Karan</span></div>
 
-  <div class="abs rel rv" style="top:calc(var(--u)*141.5);--d:6s">Son of</div>
-  <div class="abs fam rv" style="top:calc(var(--u)*146.5);--d:6.3s">Shri Sitaram Ji Nirban<br><i>and</i> Smt. Krishna Nirban</div>
-  <div class="abs gracious rv" style="top:calc(var(--u)*165.5);--d:7s;padding:0 calc(var(--u)*20)">Your gracious presence will make our celebration more special.</div>
+  <div class="abs rel rv" style="top:calc(var(--u)*149.5);--d:5.8s;font-size:calc(var(--u)*3.2)">Son of</div>
+  <div class="abs fam rv" style="top:calc(var(--u)*154.5);--d:6.1s;font-size:calc(var(--u)*5.3)">Shri Tarachand Ji Nirban<br><i>and</i> Smt. Krishna Nirban</div>
 </section>
 
 <!-- ═════════ 2 · MEHANDI & SANGEET ═════════ -->
